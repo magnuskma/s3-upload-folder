@@ -88,7 +88,7 @@ func main() {
 	endpoint := flag.String("endpoint", "https://fly.storage.tigris.dev", "AWS Endpoint")
 	bucket := flag.String("bucket", "", "S3 Bucket Name")
 	folder := flag.String("folder", "", "Path to the folder to upload")
-	prefix := flag.String("prefix", "", "Optional prefix for keys in S3")
+	prefix := flag.String("prefix", "", "Optional prefix for keys in S3 (Subfolder)")
 	workers := flag.Int("workers", 10, "Number of concurrent workers")
 
 	flag.Parse()

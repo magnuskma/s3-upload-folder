@@ -57,7 +57,7 @@ You can also run binary directly, passing in the required parameters:
 - `--endpoint`: The custom S3-compatible endpoint (default: "https://fly.storage.tigris.dev").
 - `--bucket` (required): The name of your S3 bucket.
 - `--folder` (required): The path to the local folder containing the files to upload.
-- `--prefix`: An optional prefix for the keys in S3.
+- `--prefix`: An optional prefix for the keys in S3 (Subfolder).
 - `--workers`: Number of parallel workers for uploading files (default: 10).
 
 ## Contributing
