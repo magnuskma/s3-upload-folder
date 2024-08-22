@@ -22,7 +22,7 @@ This project provides a binary for uploading files from a local folder to an AWS
 1. Make the Bash script executable:
 
    ```bash
-   curl -L -o upload_to_s3.sh https://raw.githubusercontent.com/magnuskma/s3-upload-folder/main/upload_to_s3.sh && chmod +x upload_to_s3.sh && curl -L -o .env.example https://raw.githubusercontent.com/magnuskma/s3-upload-folder/main/.env.example
+   curl -L -o s3-upload-folder.sh https://raw.githubusercontent.com/magnuskma/s3-upload-folder/main/s3-upload-folder.sh && chmod +x s3-upload-folder.sh && curl -L -o .env.example https://raw.githubusercontent.com/magnuskma/s3-upload-folder/main/.env.example
    ```
 
 2. Run the script:
